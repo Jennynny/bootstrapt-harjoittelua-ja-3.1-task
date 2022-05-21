@@ -1,4 +1,11 @@
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 90px;
+    font-size: 110px;
+    margin-bottom: 40px;
+}
+.nav-link .dropdown-toggle{
+color: black;
+}
+button.navbar-toggler{
+    color: purple;
 }
