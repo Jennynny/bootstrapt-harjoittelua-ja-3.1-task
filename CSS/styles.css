@@ -2,6 +2,11 @@ h1 {
     font-family: 'Lobster', cursive;
     font-size: 110px;
     margin-bottom: 40px;
+    
+}
+
+.navbar {
+    margin-bottom: 20px;
 }
 .nav-link .dropdown-toggle{
 color: black;
@@ -9,6 +14,13 @@ color: black;
 button.navbar-toggler{
     color: purple;
 }
+#aloitusbox {
+    margin-bottom: 20px;
+}
+#aloitusbox h3{
+   margin-bottom: 15px;
+}
+
 #infoboxi {
     border: 2px solid ;
     border-color: grey;
