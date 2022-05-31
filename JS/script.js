@@ -8,3 +8,9 @@ fetch('https://yesno.wtf/api')
 '<img src="' + data.image + '"/>'; 
 }
 );
+
+
+//takaisin etusivulle button
+function frontpage() {
+    location.href="index.html";
+}
