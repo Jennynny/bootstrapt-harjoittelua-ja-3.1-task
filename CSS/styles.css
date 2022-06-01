@@ -1,16 +1,21 @@
 body {
-    background-color: lightgrey;
+    background-color:#E6E6E6 ;
 }
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 120px;
-    margin-bottom: 40px;
-    
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .navbar {
     margin-bottom: 20px;
+   
 }
+.navbar>.container-fluid{
+display: block!important;
+}
+
 .nav-link .dropdown-toggle{
 color: black;
 }
@@ -23,15 +28,20 @@ color: black;
 }
 
 #infoboxi {
+    width: 80%;
+    display: flex;
+    align-items: center;
     border: 2px solid ;
     border-color: grey;
-    margin-left: 10px;
-    margin-right: 10px;
+   
 }
 
 #form-container {
-    background-color:darkgrey;
+    background-color:#998A8A;
     border: 2px solid;
     border-color: black;
     padding: 15px;
+}
+.buttons {
+    background-color: #E6E6C2;
 }
