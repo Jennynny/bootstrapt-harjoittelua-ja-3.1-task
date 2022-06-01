@@ -29,7 +29,7 @@ color: black;
     margin-right: 10px;
 }
 
-form {
+#form-container {
     background-color:darkgrey;
     border: 2px solid;
     border-color: black;
