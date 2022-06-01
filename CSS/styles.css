@@ -28,3 +28,10 @@ color: black;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+form {
+    background-color:darkgrey;
+    border: 2px solid;
+    border-color: black;
+    padding: 15px;
+}
