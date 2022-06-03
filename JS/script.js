@@ -1,4 +1,16 @@
-fetch('https://yesno.wtf/api')
+/**fetch('https://yesno.wtf/api')
+.then(response => response.json())
+.then(
+    data => {
+    document.getElementById('print-here').innerHTML =
+"<h3>" + data.answer + "</h2>"; 
+    document.getElementById('print-here').innerHTML +=
+'<img src="' + data.image + '"/>'; 
+}
+);*/
+
+
+fetch('https://metals-api.com/api/latest?access_key=' + lx3c5h6c9w4zhau3l8j689my4s92gw9zr0qms27ncb7sfntej45pp60qouo5)
 .then(response => response.json())
 .then(
     data => {
