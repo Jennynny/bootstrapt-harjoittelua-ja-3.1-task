@@ -1,24 +1,49 @@
 body {
     background-color:#E6E6E6 ;
 }
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 120px;
     padding-bottom: 30px;
     padding-top: 30px;
+    color: black;
 }
-
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  color: black;
+}
 .navbar {
     margin-bottom: 20px;
-   
+  
 }
+.navbar-nav .a{
+ 
+}
+
 .navbar>.container-fluid{
 display: block!important;
 }
 
-.nav-link .dropdown-toggle{
+.navbar-light .navbar-toggler {
 color: black;
+border-color: black;
 }
+
 
 #aloitusbox {
     margin-bottom: 20px;
@@ -48,12 +73,15 @@ color: black;
     border: 3px solid;
     border-color: black;
     padding: 15px;
+    font-style: 'Roboto Condensed', sans-serif;
 }
 .buttons {
     background-color: #CCC8C6;
 }
-
-/*kokeilu*/
+#title{
+  margin-top: 20px;
+}
+/*kokeilu. Image gallery*/
 .grid-row {
     display: flex;
     flex-wrap: wrap;
