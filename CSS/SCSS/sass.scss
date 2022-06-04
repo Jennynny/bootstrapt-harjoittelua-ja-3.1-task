@@ -1,9 +1,16 @@
+$background-color: #626670;
+$highlight-color: #E0D7D3;
+$font-stack: Verdana, sans-serif;
+
+//*@mixin theme($theme: )
+
+
 body {
-    background-color:#C7C5C7 ;
+    background-color: $background-color;
 }
 p {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $font-stack;
 }
 h1 {
     font-family: 'Lobster', cursive;
@@ -67,20 +74,20 @@ border-color: black;
 
 
 #form-container {
-    background-color:#B1CCCB;
+    background-color:#BEC6C3; //*#B1CCCB;
     border: 3px solid;
     border-color: black;
     padding: 15px;
     font-style: 'Roboto Condensed', sans-serif;
 }
 .buttons {
-    background-color: #CCC8C6;
+  background-color: #716868;
 }
 #title{
   margin-top: 20px;
 }
 
-/*kokeilu. Image gallery*/
+/*Image gallery*/
 .grid-row {
     display: flex;
     flex-wrap: wrap;
