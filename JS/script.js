@@ -32,7 +32,7 @@ function confirmNo(){
 }
 
 
-//takaisin sivun alkuun butto (galleria)
+//takaisin sivun alkuun button (galleria)
 function Page() {
     location.href="galleria.html";
 }
