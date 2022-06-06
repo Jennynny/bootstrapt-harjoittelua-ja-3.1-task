@@ -58,12 +58,21 @@ border-color: black;
 
 
 #aloitusbox {
+
     margin-bottom: 20px;
     h3{
       margin-bottom: 15px;
    }
+   .card-body{
+    background-color: #b4e1cf;
+   }
 }
 
+#tekstikortti {
+  .card-body{
+    background-color: #b4e1cf;
+  }
+}
 /*#infoboxi {
     width: 80%;
     display: flex;
@@ -81,7 +90,7 @@ border-color: black;
 }
 
 #form-container {
-    background-color:#BEC6C3; //*#B1CCCB;
+    background-color:#b4e1cf; //*#B1CCCB;
     border: 3px solid;
     border-color: black;
     padding: 15px;
@@ -164,4 +173,6 @@ border-color: black;
     padding: 15px;
 
 }
-  
+#home {
+  margin-bottom: 10px;
+}
