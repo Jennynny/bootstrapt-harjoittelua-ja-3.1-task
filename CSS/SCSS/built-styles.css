@@ -81,10 +81,33 @@ h4 {
 
 }*/
 .info-container {
-  width: 40%;
-  align-items: center;
+  width: 20%;
+  align-content: center;
   border: 3px solid;
   border-color: black;
+  margin-bottom: 30px;
+}
+.info-container #title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.info-container .border {
+  border: 2px solid black !important;
+  padding: 10px;
+  background-color: #15515c;
+  margin: 15px;
+  align-items: center;
+}
+
+#clearfix {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: 3px solid;
+  border-color: black;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 #form-container {
@@ -97,11 +120,6 @@ h4 {
 
 .buttons {
   background-color: #716868;
-}
-
-#title {
-  margin-top: 20px;
-  margin-bottom: 15px;
 }
 
 .footer {
@@ -156,16 +174,13 @@ a[target] {
   font-size: 30px;
 }
 
-.border {
-  border: 2px solid black !important;
-  padding: 10px;
-  background-color: #15515c;
-  margin: 15px;
-  align-items: center;
-}
-
 #käyntikortit a {
   padding: 15px;
+}
+
+.question-container .text-center h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 #home {
