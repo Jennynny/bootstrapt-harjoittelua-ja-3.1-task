@@ -12,6 +12,8 @@
   
   <!--<link rel="stylesheet" href="CSS/styles.css">-->
   <link rel="stylesheet" href="CSS/SCSS/built-styles.css">
+  <script src="JS/script.js"defer></script>
+
 </head>
 <body>
 
@@ -55,23 +57,43 @@
     </div>
     </div>
 
-    
+    <div class="container">
+      <div class="clearfix" id="clearfix">
+        <h3><strong>Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä.</strong></h3>
+      
+        <p class>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque architecto pariatur maiores velit veniam iste placeat sapiente nostrum id odit.
+        </p>
+      
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cum nobis amet! Tempora dolor cumque sit perferendis necessitatibus, est facere!
+        </p>
+      
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea debitis, sed laboriosam, facilis ullam totam dolore nisi ad quo eum vero ducimus sapiente quibusdam?
+        </p>
+        
+      </div>
+      </div>
 
-<div class="info-container container-md ">
+<div class="info-container container">
     <div class = "row justify-content-center">
-      <div class="col-md">
-        <div class = "col justify-text-center">
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, illo!</p>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum impedit soluta magni. Tempore quam debitis esse deserunt itaque molestiae veritatis.</p>
-    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem placeat animi qui, alias cupiditate aliquam reiciendis sit ducimus nemo. Quisquam.</p>
+      <div class="col justify-text-between">
+          <div id="title">
+            <h3>Tutustu!</h3>
+          </div>
+          <div class="row">
+          <div class="col justify-content-center">
+          <span class="border">
+            <a href="http://www.paja1605.fi" target="_new">Paja1605</a>
+          </span>
+          <span class="border">
+            <a href="https://www.instagram.com/jkorut/?hl=fi" target="_new">Instagram</a>
+          </span>
     </div>
+  </div>
 </div>
 </div>
-</div>
-
-
-<div id="title" class="col">
-  <h3 class="text-center">Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä tai koruista yleisesti!</h3>
 </div>
 
 <!--https://www.youtube.com/watch?v=aeNDvQi6O94-->
@@ -110,19 +132,15 @@
 
 <!--businesscard-->
 <div id="käyntikortit">
-  <div class="container">
+  <div class="container containen-md">
     <div class="row g-2">   
   <div class="d-flex justify-content-center">
-    <div>
     <a href="index.html">
       <img src="Images/käyntikorttilogo.jpg" >
     </a>
-    </div>
-    <div>
     <a href="https://www.instagram.com/jkorut/?hl=fi" target="_new">
       <img src="Images/käyntikorttitk.jpg">
       </a>
-    </div>
   </div>
   </div>
   </div>
@@ -130,15 +148,17 @@
 
 
 <!--question-->
-<div class="question-container mt-4">
+<div class="question-container">
   <div class="row justify-content-center">
-    <div class="col-md-4">   
+    <div class="col-md">   
       <div class="text-center">
 <h3>Haluaisitko tilata käsintehdyn tai 3D-mallinnetun korun?</h3>
 </div>
-<div class="d-grid gap-2">
+<div class="d-grid gap-2 col-2 mx-auto">
+  <div class="row">
 <button onclick="confirmYes()" class="btn btn-secondary btn-lg mt-2">Kyllä</button>
 <button onclick="confirmNo()" class="btn btn-secondary btn-lg mt-2">En</button>
+</div>
 </div>
 </div>
 </div>
@@ -150,25 +170,14 @@
 <div id="print-here"></div>
 </div>
 
-<div class="container">
-  <div class="row">
-  <div class="col">
-<span class="border">
-  <a href="http://www.paja1605.fi" target="_new">Paja1605</a>
-</span>
-<span class="border">
-  <a href="https://www.instagram.com/jkorut/?hl=fi" target="_new">Instagram</a>
-</span>
+ <!--Alkuun ja takaisin-->
+ <div class="d-grid gap-2 col-2 mx-auto">
+  <div class="row mt-5">
+  <button class= "btn btn-secondary btn-lg" id="home" type="button">Etusivulle</button>
+  <button class="btn btn-secondary btn-lg" id="back" type="button">Takaisin sivun alkuun</button>
 </div>
-</div>
-</div>
+</div>   
 
-<!--button to frontpage-->
-<div class="container-fluid p-4 text-center">
-<div> 
-  <button type="button" class="btn btn-secondary btn-lg mt-3" onclick="frontPage()">Takaisin etusivulle</button> 
-</div>
-</div>
 
 
 <!--https://metals-api.com/api/latest?access_key=lx3c5h6c9w4zhau3l8j689my4s92gw9zr0qms27ncb7sfntej45pp60qouo5
@@ -199,7 +208,7 @@
 
 
 
-<script src="JS/script.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
