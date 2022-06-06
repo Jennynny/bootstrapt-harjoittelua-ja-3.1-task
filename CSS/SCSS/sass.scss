@@ -3,7 +3,6 @@ $highlight-color: #E0D7D3;
 $font-stack: Verdana, sans-serif;
 
 
-
 header {
   border-bottom: 1px solid $highlight-color;
 }
@@ -47,6 +46,7 @@ h4 {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+
 .navbar>.container-fluid{
 display: block!important;
 }
@@ -145,3 +145,20 @@ border-color: black;
       max-width: 100%;
     }
   }
+
+  /*linkki napit*/
+  a[target] {
+    color: $highlight-color;
+    font-size: 30px;
+    
+  }
+  .border {
+    border: 2px solid black!important;
+    padding: 10px;
+    background-color: #15515c;
+    margin: 5px;
+    align-items: center;
+}
+
+
+  
