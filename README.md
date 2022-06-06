@@ -1,5 +1,5 @@
 # Web-tekniikat_teht-v-t
-Web-tekniikoiden tehtävät yhdistävä verkkosivukokonaisuus. Sivustoon on käytetty ja kerätty tarvittavia osioita tehtävien toteutusta varten.
+Web-tekniikoiden tehtävät yhdistävä verkkosivukokonaisuus. Sivustoon on käytetty ja kerätty tarvittavia osioita tehtävien toteutusta varten (kuten: Boostrap, SASS, Rest..)
 
 
 Verkkosivujen aiheena minun omat korut ja toiminta koruseppänä, artesaanina. 
