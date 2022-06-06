@@ -142,5 +142,18 @@ h4 {
     max-width: 100%;
   }
 }
+/*linkki napit*/
+a[target] {
+  color: #E0D7D3;
+  font-size: 30px;
+}
+
+.border {
+  border: 2px solid black !important;
+  padding: 10px;
+  background-color: #15515c;
+  margin: 5px;
+  align-items: center;
+}
 
 /*# sourceMappingURL=built-styles.css.map */
