@@ -38,10 +38,28 @@ function Page() {
 }
 
 //takaisin etusivulle button
-function frontpage() {
+function frontPage() {
     location.href="index.html";
 }
 
+//Alkuun ja takaisin nappuloiden toiminta
+let button1= document.getElementById("home");
+let button2= document.getElementById("back");
+
+button1.addEventListener("click",alkuun );
+button2.addEventListener("click",takaisin);
+
+function alkuun(){
+  location.href="index.html";
+}
+
+function takaisin(){
+  location.href="about.html";
+}
+
+
+/*värinvaihtoa?
+let aloitus = document.querySelector("#aloitusbox>card-body");
 /*
 // set endpoint and your access key
 endpoint = 'latest'
