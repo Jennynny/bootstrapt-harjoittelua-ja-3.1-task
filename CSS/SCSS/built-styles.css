@@ -64,6 +64,13 @@ h4 {
 #aloitusbox h3 {
   margin-bottom: 15px;
 }
+#aloitusbox .card-body {
+  background-color: #b4e1cf;
+}
+
+#tekstikortti .card-body {
+  background-color: #b4e1cf;
+}
 
 /*#infoboxi {
     width: 80%;
@@ -81,7 +88,7 @@ h4 {
 }
 
 #form-container {
-  background-color: #BEC6C3;
+  background-color: #b4e1cf;
   border: 3px solid;
   border-color: black;
   padding: 15px;
@@ -159,6 +166,10 @@ a[target] {
 
 #käyntikortit a {
   padding: 15px;
+}
+
+#home {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=built-styles.css.map */
