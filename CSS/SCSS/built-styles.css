@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   border-bottom: 1px solid #E0D7D3;
 }
@@ -152,8 +153,12 @@ a[target] {
   border: 2px solid black !important;
   padding: 10px;
   background-color: #15515c;
-  margin: 5px;
+  margin: 15px;
   align-items: center;
+}
+
+#käyntikortit a {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=built-styles.css.map */
