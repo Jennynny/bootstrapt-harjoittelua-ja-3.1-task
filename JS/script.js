@@ -11,7 +11,7 @@ fetch('https://yesno.wtf/api')
 }
 );
 
-/**Haluaisitko korun?kahdessa funktiossa, molemmille napeille omat */
+/**Haluaisitko korun?kahdessa funktiossa, kyllä ja ei  napeille omat. Else = peruuta mahdollisuus alertissa */
 function confirmYes() {
     let confirmYes = confirm("Kiitos! Mahtavaa! Täyttäisitkö yhteydenottolomakkeen tai laittaisitko viestiä instagramissa @jkorut");
     if (confirmYes) {
@@ -42,7 +42,7 @@ function frontPage() {
     location.href="index.html";
 }
 
-//Alkuun ja takaisin nappuloiden toiminta
+//Alkuun ja takaisin nappulat addEventListener
 let button1= document.getElementById("home");
 let button2= document.getElementById("back");
 
