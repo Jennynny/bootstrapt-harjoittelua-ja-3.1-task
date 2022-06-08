@@ -60,9 +60,17 @@ function takaisin(){
 //h3 otsikon manipulointia (yhteystiedot.html)
 let h3 = document.getElementById("h3");
 
-h3.classList.add("otsikonTausta");
+h3.classList.add("headlinebg");
 
+// p elementin muotoilua
 
+let p = document.querySelector("p");
+
+p.addEventListener("mouseenter", changeColor);
+p.addEventListener("mouseleave", changeColor);
+function changeColor(){
+  p.classList.toggle("textcolor");
+}
 /*
 //tekstin ja värin vaihto
 document.querySelector("h3").textContent=" Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä!";
