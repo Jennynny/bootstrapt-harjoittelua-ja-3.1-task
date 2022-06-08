@@ -57,19 +57,46 @@ function takaisin(){
   location.href="yhteystiedot.html";
 }
 
-//h3 otsikon manipulointia (yhteystiedot.html)
+//h3 otsikon manipulointia (yhteystiedot.html) taustaväri + muita mahdollisia muotoiluja.
 let h3 = document.getElementById("h3");
 
 h3.classList.add("headlinebg");
 
-// p elementin muotoilua
 
+// p elementin muotoilua
 let p = document.querySelector("p");
 
 p.addEventListener("mouseenter", changeColor);
 p.addEventListener("mouseleave", changeColor);
+p.addEventListener("click", changeBg);
+
+//hiirellä tekstin päälle, vaihtuu väri
 function changeColor(){
   p.classList.toggle("textcolor");
+}
+// kun tekstiä klikkaa, vaihtuu testin taustaväri.
+function changeBg(){
+  p.classList.toggle("textbg");
+}
+
+//lomakkeen 'lähetä' alert-viesti. (yhteystiedot.html)
+let buttons = document.getElementById("enterButton");
+
+enterButton.addEventListener("click", enter);
+
+function enter(){
+  alert("Yhteydenottosi tiedot eivät mene tästä eteenpäin tällä harjoitusverkkosivulla");
+}
+
+//kokeilu. Muuntaa kokonaan tekstin taustavärin id:stä
+let loremColor = document.getElementById("clearfix");
+
+loremColor.addEventListener("mouseenter", changeColor);
+loremColor.addEventListener("mouseleave", changeColor);
+
+//hiirellä tekstin päälle, vaihtuu väri
+function changeColor(){
+  loremColor.classList.toggle("textcolorR");
 }
 /*
 //tekstin ja värin vaihto
