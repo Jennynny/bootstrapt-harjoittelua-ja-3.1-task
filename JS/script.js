@@ -56,6 +56,13 @@ function alkuun(){
 function takaisin(){
   location.href="yhteystiedot.html";
 }
+
+//h3 otsikon manipulointia (yhteystiedot.html)
+let h3 = document.getElementById("h3");
+
+h3.classList.add("otsikonTausta");
+
+
 /*
 //tekstin ja värin vaihto
 document.querySelector("h3").textContent=" Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä!";
