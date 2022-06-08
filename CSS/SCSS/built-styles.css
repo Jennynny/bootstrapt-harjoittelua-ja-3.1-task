@@ -187,4 +187,10 @@ a[target] {
   margin-bottom: 10px;
 }
 
+.otsikonTausta {
+  font-weight: bold;
+  background-color: rgb(56, 127, 114);
+  display: inline-block;
+}
+
 /*# sourceMappingURL=built-styles.css.map */
