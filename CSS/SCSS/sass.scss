@@ -121,7 +121,7 @@ border-color: black;
 }
 
 .buttons {
-  background-color: #716868;
+  background-color: #346B6D;
 }
 
 .footer{
@@ -197,6 +197,14 @@ border-color: black;
   background-color: rgb(56, 127, 114);
   display: inline-block;
 }
+/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
 .textcolor{
   color: purple;
+}
+.textcolorR {
+  background-color: red;
+}
+/*tekstin taustavärin vaihto klikkauksella*/ 
+.textbg{
+  background-color: #FB9F8B;
 }
