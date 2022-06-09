@@ -193,13 +193,13 @@ a[target] {
   display: inline-block;
 }
 
-/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
+/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle, ei käytössä nyt*/
 .textcolor {
   color: purple;
 }
 
 .textcolorR {
-  background-color: red;
+  background-color: #b4e1cf;
 }
 
 /*tekstin taustavärin vaihto klikkauksella*/
