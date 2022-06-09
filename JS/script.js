@@ -70,16 +70,16 @@ p.addEventListener("mouseenter", changeColor);
 p.addEventListener("mouseleave", changeColor);
 p.addEventListener("click", changeBg);
 
-//hiirellä tekstin päälle, vaihtuu väri
-function changeColor(){
+//hiirellä tekstin päälle, vaihtuu väri, tämä ei nyt toimi, koska koko laatikko on värjätty.
+/*function changeColor(){
   p.classList.toggle("textcolor");
-}
+}*/
 // kun tekstiä klikkaa, vaihtuu testin taustaväri.
 function changeBg(){
   p.classList.toggle("textbg");
 }
 
-//lomakkeen 'lähetä' alert-viesti. (yhteystiedot.html)
+//lomakkeen 'lähetä' painikkeen alert-viesti. (yhteystiedot.html)
 let buttons = document.getElementById("enterButton");
 
 enterButton.addEventListener("click", enter);
@@ -88,13 +88,13 @@ function enter(){
   alert("Yhteydenottosi tiedot eivät mene tästä eteenpäin tällä harjoitusverkkosivulla");
 }
 
-//kokeilu. Muuntaa kokonaan tekstin taustavärin id:stä
+//Muuntaa kokonaan tekstin taustavärin id:stä (yhteystiedot)
 let loremColor = document.getElementById("clearfix");
 
 loremColor.addEventListener("mouseenter", changeColor);
 loremColor.addEventListener("mouseleave", changeColor);
 
-//hiirellä tekstin päälle, vaihtuu väri
+//hiirellä tekstin päälle, taustaväri vaihtuu 
 function changeColor(){
   loremColor.classList.toggle("textcolorR");
 }
@@ -124,3 +124,14 @@ n.style.backgroundColor = "beige";*/
 /*värinvaihtoa?
 let aloitus = document.querySelector("#aloitusbox>card-body");
 */
+
+//Ei toimi yhtäaikaa toisen samanlaisen kanssa samalla sivulla.
+/*let CardColor = document.getElementById("h2otsikko");
+
+CardColor.addEventListener("mouseenter", changeColor);
+CardColor.addEventListener("mouseleave", changeColor);
+
+//hiirellä tekstin päälle, vaihtuu väri
+function changeColor(){
+  CardColor.classList.toggle("textcolor");
+}*/
