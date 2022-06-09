@@ -1,6 +1,7 @@
 $background-color: #626670;
 $highlight-color: #E0D7D3;
 $font-stack: Verdana, sans-serif;
+$secondbackground-color: #b4e1cf;
 
 
 header {
@@ -58,19 +59,18 @@ border-color: black;
 
 
 #aloitusbox {
-
     margin-bottom: 20px;
     h3{
       margin-bottom: 15px;
    }
    .card-body{
-    background-color: #b4e1cf;
+    background-color: $secondbackground-color;
    }
 }
 
 #tekstikortti {
   .card-body{
-    background-color: #b4e1cf;
+    background-color: $secondbackground-color;
   }
 }
 /*#infoboxi {
@@ -113,7 +113,7 @@ border-color: black;
 }
 
 #form-container {
-    background-color:#b4e1cf; //*#B1CCCB;
+    background-color: $secondbackground-color; //*#B1CCCB;
     border: 3px solid;
     border-color: black;
     padding: 15px;
@@ -179,8 +179,7 @@ border-color: black;
     
   }
 
-
-  #käyntikortit a {
+#käyntikortit a {
     padding: 15px;
 
 }
@@ -191,18 +190,19 @@ border-color: black;
   #home {
   margin-bottom: 10px;
 }
-
+//yhden otsikon alle taustavärimääritys tällä
 .headlinebg{
   font-weight: bold;
   background-color: rgb(56, 127, 114);
   display: inline-block;
 }
-/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
+/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle, ei käytössä nyt*/
 .textcolor{
   color: purple;
 }
+//väri joka vaihtuu id:stä kun hiiren laittaa päälle.
 .textcolorR {
-  background-color: red;
+  background-color: $secondbackground-color;
 }
 /*tekstin taustavärin vaihto klikkauksella*/ 
 .textbg{
