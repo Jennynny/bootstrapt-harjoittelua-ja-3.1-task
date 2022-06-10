@@ -89,14 +89,14 @@ function enter(){
 }
 
 //Muuntaa kokonaan tekstin taustavärin id:stä (yhteystiedot)
-let loremColor = document.getElementById("clearfix");
+let clearfix = document.getElementById("clearfix");
 
-loremColor.addEventListener("mouseenter", changeColor);
-loremColor.addEventListener("mouseleave", changeColor);
+clearfix.addEventListener("mouseenter", changeColor);
+clearfix.addEventListener("mouseleave", changeColor);
 
 //hiirellä tekstin päälle, taustaväri vaihtuu 
 function changeColor(){
-  loremColor.classList.toggle("textcolorR");
+  clearfix.classList.toggle("textcolorR");
 }
 /*
 //tekstin ja värin vaihto
