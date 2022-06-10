@@ -1,5 +1,0 @@
-
-Viimeisellä sivulla (yhteystiedot) on käytetty Restiä ja tämä herjaa consolissa muilla verkkosivun sivuilla.
-muista laittaa viite Jenny Virtan ottamalle kuvalle!
-
-testi tekstiä tähän miten käy .girignoren ja commitin kanssa 
