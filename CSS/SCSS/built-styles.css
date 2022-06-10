@@ -87,7 +87,7 @@ h4 {
   border-color: black;
   margin-bottom: 30px;
 }
-.info-container #title {
+.info-container #title3 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -193,7 +193,7 @@ a[target] {
   display: inline-block;
 }
 
-/*tekstinväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle, ei käytössä nyt*/
+/*otsikon nväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
 .textcolor {
   color: purple;
 }
