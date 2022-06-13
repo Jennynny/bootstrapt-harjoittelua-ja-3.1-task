@@ -8,3 +8,8 @@ title.addEventListener("mouseleave", changeColorCard);
 function changeColorCard(){
   title.classList.toggle("textcolor");
 }
+
+//takaisin etusivulle button
+function frontPage() {
+    location.href="index.html";
+}

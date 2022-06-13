@@ -37,12 +37,8 @@ function Page() {
     location.href="galleria.html";
 }
 
-//takaisin etusivulle button
-function frontPage() {
-    location.href="index.html";
-}
 
-//Alkuun ja takaisin nappulat addEventListener
+//Alkuun ja takaisin nappulat addEventListener (yhteystiedot.html)
 let button1= document.getElementById("home");
 let button2= document.getElementById("back");
 
@@ -57,13 +53,13 @@ function takaisin(){
   location.href="yhteystiedot.html";
 }
 
-//h3 otsikon manipulointia (yhteystiedot.html) taustaväri + muita mahdollisia muotoiluja.
+//h3 otsikon manipulointia (yhteystiedot.html 'Laitetaanko pakettiin?') taustaväri + muita mahdollisia muotoiluja.
 let h3 = document.getElementById("h3");
 
 h3.classList.add("headlinebg");
 
 
-// p elementin muotoilua
+//p elementin muotoilua
 let p = document.querySelector("p");
 
 p.addEventListener("mouseenter", changeColor);
@@ -74,7 +70,7 @@ p.addEventListener("click", changeBg);
 /*function changeColor(){
   p.classList.toggle("textcolor");
 }*/
-// kun tekstiä klikkaa, vaihtuu testin taustaväri.
+// kun tekstiä klikkaa, vaihtuu testin taustaväri (yhteystiedot.html "JKoruja voit...").
 function changeBg(){
   p.classList.toggle("textbg");
 }
@@ -88,16 +84,18 @@ function enter(){
   alert("Yhteydenottosi tiedot eivät mene tästä eteenpäin tällä harjoitusverkkosivulla");
 }
 
-//Muuntaa kokonaan tekstin taustavärin id:stä (yhteystiedot)
+//Muuntaa kokonaan tekstin taustavärin id:stä kun hiiri on tekstin päällä (yhteystiedot)
 let clearfix = document.getElementById("clearfix");
 
 clearfix.addEventListener("mouseenter", changeColor);
 clearfix.addEventListener("mouseleave", changeColor);
 
-//hiirellä tekstin päälle, taustaväri vaihtuu 
+//hiiri tekstin päälle, taustaväri vaihtuu 
 function changeColor(){
   clearfix.classList.toggle("textcolorR");
 }
+
+
 /*
 //tekstin ja värin vaihto
 document.querySelector("h3").textContent=" Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä!";
