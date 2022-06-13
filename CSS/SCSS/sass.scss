@@ -3,6 +3,11 @@ $highlight-color: #E0D7D3;
 $font-stack: Verdana, sans-serif;
 $secondbackground-color: #b4e1cf;
 
+@mixin theme($theme:black) {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: $theme;
+}
+
 
 header {
   border-bottom: 1px solid $highlight-color;
@@ -23,19 +28,16 @@ h1 {
     color: black;
 }
 h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  @include theme;
   font-size: 50px;
-  color: black;
 }
 h3 {
-  font-family: 'Roboto Condensed', sans-serif;
+  @include theme;
   font-size: 30px;
-  color: black;
 }
 h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+  @include theme;
   font-size: 20px;
-  color: black;
 }
 .navbar {
     margin-bottom: 10px;
@@ -46,6 +48,11 @@ h4 {
 }
 .navbar-light .navbar-nav .nav-link {
   color: black;
+}
+
+/*jääkö?*/
+.nav .navbar .navbar-expand-lg .navbar-light {
+  color: red;
 }
 
 .navbar>.container-fluid{
@@ -179,8 +186,8 @@ border-color: black;
     
   }
 
-#käyntikortit a {
-    padding: 15px;
+#businesscard a {
+    padding: 10px;
 
 }
 .question-container .text-center h3 {
@@ -193,8 +200,9 @@ border-color: black;
 //yhden otsikon alle taustavärimääritys tällä
 .headlinebg{
   font-weight: bold;
-  background-color: rgb(56, 127, 114);
+  background-color: $secondbackground-color;
   display: inline-block;
+  
 }
 /*otsikon nväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
 .textcolor{
@@ -207,4 +215,9 @@ border-color: black;
 /*tekstin taustavärin vaihto klikkauksella*/ 
 .textbg{
   background-color: #FB9F8B;
+}
+
+#cards {
+  margin-top: 20px;
+
 }
