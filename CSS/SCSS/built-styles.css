@@ -216,4 +216,10 @@ a[target] {
   margin-top: 20px;
 }
 
+.list-group-item {
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  background-color: #b4e1cf;
+}
+
 /*# sourceMappingURL=built-styles.css.map */
