@@ -1,5 +1,5 @@
 $background-color: #626670;
-$highlight-color: #E0D7D3;
+$highlight-color: white;
 $font-stack: Verdana, sans-serif;
 $secondbackground-color: #b4e1cf;
 
@@ -10,7 +10,7 @@ $secondbackground-color: #b4e1cf;
 
 
 header {
-  border-bottom: 1px solid $highlight-color;
+  border-bottom: 2px solid $highlight-color;
 }
 
 body {
@@ -46,6 +46,7 @@ h4 {
     font-size: 20px;
   
 }
+//navbar tekstin väri
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
@@ -139,6 +140,9 @@ border-color: black;
     font-family: $font-stack;
   }
 }
+.border-top {
+  border-top: 1px solid $highlight-color!important;
+}
 
 .text-muted {
   --bs-text-opacity: 1;
@@ -205,7 +209,7 @@ border-color: black;
   display: inline-block;
   
 }
-/*otsikon nväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
+/*otsikon väri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
 .textcolor{
   color: purple;
 }
@@ -213,7 +217,7 @@ border-color: black;
 .textcolorR {
   background-color: $secondbackground-color;
 }
-/*tekstin taustavärin vaihto klikkauksella*/ 
+/*tekstin taustavärin vaihto klikkauksella. Yhteystiedot clearfix-boxin ensimmäinen rivi 'Jkorut..'*/ 
 .textbg{
   background-color: #FB9F8B;
 }
@@ -233,10 +237,17 @@ border-color: black;
 }
 //about sivulla alaosan listauksen tekstin väritys
 .list-group-item {
-  color: rgb(0, 21, 255);
+  color: rgb(184, 109, 6);
 }
 //about sivun ensimmäisen kortin tekstin värin määritys
 .cardTexColor{
-  color: rgb(4, 112, 80);
+  color: red;
 }
 
+/* About-sivun ensimmäinen valokuva ja (vasen alareuna) kuvaajan nimi (viite) */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+}
