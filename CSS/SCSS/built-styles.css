@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header {
-  border-bottom: 1px solid #E0D7D3;
+  border-bottom: 2px solid white;
 }
 
 body {
@@ -135,6 +135,10 @@ h4 {
   font-family: Verdana, sans-serif;
 }
 
+.border-top {
+  border-top: 1px solid white !important;
+}
+
 .text-muted {
   --bs-text-opacity: 1;
   color: black !important;
@@ -198,7 +202,7 @@ a[target] {
   display: inline-block;
 }
 
-/*otsikon nväri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
+/*otsikon väri, joka muuttuu kun hiiren laittaa tekstin yläpuolle*/
 .textcolor {
   color: purple;
 }
@@ -207,7 +211,7 @@ a[target] {
   background-color: #b4e1cf;
 }
 
-/*tekstin taustavärin vaihto klikkauksella*/
+/*tekstin taustavärin vaihto klikkauksella. Yhteystiedot clearfix-boxin ensimmäinen rivi 'Jkorut..'*/
 .textbg {
   background-color: #FB9F8B;
 }
@@ -227,11 +231,19 @@ a[target] {
 }
 
 .list-group-item {
-  color: rgb(0, 21, 255);
+  color: rgb(184, 109, 6);
 }
 
 .cardTexColor {
-  color: rgb(4, 112, 80);
+  color: red;
+}
+
+/* About-sivun ensimmäinen valokuva ja (vasen alareuna) kuvaajan nimi (viite) */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
 }
 
 /*# sourceMappingURL=built-styles.css.map */
