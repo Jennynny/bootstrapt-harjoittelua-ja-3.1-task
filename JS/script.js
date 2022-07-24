@@ -1,5 +1,5 @@
 
-/*Rest */
+//Rest yhteystiedot.html/
 fetch('https://yesno.wtf/api')
 .then(response => response.json())
 .then(
@@ -11,31 +11,19 @@ fetch('https://yesno.wtf/api')
 }
 );
 
-/**Haluaisitko korun?kahdessa funktiossa, kyllä ja ei  napeille omat. Else = peruuta mahdollisuus alertissa */
+//Haluaisitko korun?kahdessa funktiossa, kyllä ja ei (yhteystiedot.html) /
 function confirmYes() {
-    let confirmYes = confirm("Kiitos! Mahtavaa! Täyttäisitkö yhteydenottolomakkeen tai laittaisitko viestiä instagramissa @jkorut");
-    if (confirmYes) {
-      alert("Kiitos vielä ja on hienoa, että kotimainen käsityö kiinnostaa sinua.");
-    } else {
-      alert("Hupsista");
-    }
+    let confirmYes = confirm("Kiitos! Täyttäisitkö yhteydenottolomakkeen tai laittaisitko viestiä instagramissa @jkorut");  
 }
 function confirmNo(){
     let confirmNo = confirm("Kiitos kun tutustui JKoruihin.")
-  if (confirmNo) {
-    // if true
-    alert("Otathan rohkeasti yhteyttä, jos jokin koruissani jäi mietityttämään.");
-  } else {
-    // if false
-    alert("Haluaisitko sittenkin korun? Täytä vain yhteydenottolomake tai laita viestiä Instagramissa @jkorut");
-  }
 }
 
 
-//takaisin sivun alkuun button (galleria)
+/*takaisin sivun alkuun button (galleria). Herjaa, mutta toimii?
 function Page() {
     location.href="galleria.html";
-}
+}*/
 
 
 //Alkuun ja takaisin nappulat addEventListener (yhteystiedot.html)
@@ -81,7 +69,7 @@ let buttons = document.getElementById("enterButton");
 enterButton.addEventListener("click", enter);
 
 function enter(){
-  alert("Yhteydenottosi tiedot eivät mene tästä eteenpäin tällä harjoitusverkkosivulla");
+  alert("Täyttämäsi tiedot eivät mene tästä eteenpäin tällä harjoitusverkkosivulla");
 }
 
 //Muuntaa kokonaan tekstin taustavärin id:stä kun hiiri on tekstin päällä (yhteystiedot)
