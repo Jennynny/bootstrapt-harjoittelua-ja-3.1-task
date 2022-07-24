@@ -46,7 +46,7 @@ h4 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: white;
 }
 
 /*jääkö?*/
@@ -220,6 +220,18 @@ a[target] {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   background-color: #b4e1cf;
+}
+
+.ulListColor {
+  color: blueviolet !important;
+}
+
+.list-group-item {
+  color: rgb(0, 21, 255);
+}
+
+.cardTexColor {
+  color: rgb(4, 112, 80);
 }
 
 /*# sourceMappingURL=built-styles.css.map */
