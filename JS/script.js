@@ -20,12 +20,6 @@ function confirmNo(){
 }
 
 
-/*takaisin sivun alkuun button (galleria). Herjaa, mutta toimii?
-function Page() {
-    location.href="galleria.html";
-}*/
-
-
 //Alkuun ja takaisin nappulat addEventListener (yhteystiedot.html)
 let button1= document.getElementById("home");
 let button2= document.getElementById("back");
@@ -84,40 +78,4 @@ function changeColor(){
 }
 
 
-/*
-//tekstin ja värin vaihto
-document.querySelector("h3").textContent=" Tilaa tuotteita, anna palautetta, tiedustele tilaus- ja korjaustöistä!";
-let h3= document.querySelector("h3");
-h3.style.color= "pink";
 
-//Tekstin värinvaihto kun hiiri on tekstin päällä
-let p = document.querySelector("p");
-p.addEventListener("mouseenter",changeColor);
-p.addEventListener("mouseleave",changeColor);
-
-function changeColor(){
-    p.classList.toggle("textcolor");
-}
-
-//tekstin värin vaihto
-let m = document.getElementById("clearfix");
-m.style.color = "teal";
-
-//taustan värin vaihto
-let n = document.getElementById("clearfix");
-n.style.backgroundColor = "beige";*/
-
-/*värinvaihtoa?
-let aloitus = document.querySelector("#aloitusbox>card-body");
-*/
-
-//Ei toimi yhtäaikaa toisen samanlaisen kanssa samalla sivulla.
-/*let CardColor = document.getElementById("h2otsikko");
-
-CardColor.addEventListener("mouseenter", changeColor);
-CardColor.addEventListener("mouseleave", changeColor);
-
-//hiirellä tekstin päälle, vaihtuu väri
-function changeColor(){
-  CardColor.classList.toggle("textcolor");
-}*/
