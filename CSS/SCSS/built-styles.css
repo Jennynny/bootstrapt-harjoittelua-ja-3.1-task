@@ -61,6 +61,7 @@ h4 {
 .navbar-light .navbar-toggler {
   color: black;
   border-color: black;
+  border: 3px solid;
 }
 
 #aloitusbox {
@@ -227,7 +228,7 @@ a[target] {
 }
 
 .ulListColor {
-  color: blueviolet !important;
+  color: rgb(121, 15, 221) !important;
 }
 
 .list-group-item {
