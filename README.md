@@ -4,5 +4,5 @@ Web-tekniikoiden tehtävät yhdistävä verkkosivukokonaisuus. Sivustoon on käy
 
 Verkkosivujen aiheena minun omat korut ja toiminta koruseppänä, artesaanina. 
 
-Sivuston kuvat ja kuvien työt ovat minun omiani, poislukien yksi kuva, mikä löytyy about sivulta ensimmäisenä. Kuvan on ottanut Jenny Virta (Tampere).
+Sivuston kuvat ja kuvien työt ovat minun omiani, poislukien yksi kuva, mikä löytyy about sivulta ensimmäisenä. Kuvaan on lisätty Kuvaaja. Kuvan on ottanut Jenny Virta (Tampere).
 
