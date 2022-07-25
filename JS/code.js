@@ -14,7 +14,7 @@ function frontPage() {
     location.href="index.html";
 }
 
-
+//Liittyy Listaan, ei toimi..
 let ulChildren = document.querySelectorAll(".ul>*")
 /**@type{element} */
 let elem;
@@ -23,13 +23,12 @@ for(elem of ulChildren){
     elem.parentElement.insertBefore(hr,elem);
 
 }
-
+//Listan fontin värin muutos 1. rivillä.
 let list = document.querySelector(".list-group-item");
 
 list.classList.add("ulListColor");
 
 //kortin tekstivärin muutos
-
 let cardTC = document.querySelector(".card-text");
 
 cardTC.classList.add("cardTexColor");
