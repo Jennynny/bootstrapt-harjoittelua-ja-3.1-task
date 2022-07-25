@@ -63,6 +63,7 @@ display: block!important;
 .navbar-light .navbar-toggler {
 color: black;
 border-color: black;
+border: 3px solid;
 }
 
 
@@ -233,7 +234,7 @@ border-color: black;
 }
 //about sivun listan ensimmäisen rivin tekstin värin määritys
 .ulListColor {
-  color: blueviolet!important;
+  color: rgb(121, 15, 221)!important;
 }
 //about sivulla alaosan listauksen tekstin väritys
 .list-group-item {
